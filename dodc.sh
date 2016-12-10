@@ -57,8 +57,6 @@ function choose_image() {
 }
 
 function choose_size() {
-    # TODO: Determine a way to pre-select the current size.
-    # FIXME: Show an error when no size is selected.
     dialog --backtitle "Droplet creator" --title "Size" --radiolist "Choose a size:" 0 0 0 \
       512mb "Standard Droplet, \$5/mo." off \
       1gb "Standard Droplet, \$10/mo." off \
@@ -84,8 +82,6 @@ function choose_size() {
 }
 
 function choose_region() {
-    # TODO: Determine a way to pre-select the current region.
-    # FIXME: Show an error when no region is selected.
     dialog --backtitle "Droplet creator" --title "Region" --radiolist "Choose a region:" 0 0 0 \
       ams2 "Amsterdam 2" off \
       ams3 "Amsterdam 3" off \
@@ -131,7 +127,6 @@ function choose_additional_options() {
     esac
 
     # Create a string summarizing selected options.
-    # TODO: Consider if there's a better way to do this.
     if [[ $private_networking = "on" && $ipv6 = "on" ]]; then
         options_summary="Private networking, IPv6"
     elif [[ $private_networking = "on" && $ipv6 = "off" ]]; then
@@ -169,10 +164,7 @@ DIALOG_OK=0
 DIALOG_CANCEL=1
 DIALOG_ESC=255
 
-# TODO: Use a variable for setting the default top menu entry.
-
 # Initialize default Droplet settings.
-# To avoid delaying startup, fetch SSH keys when creating Droplet.
 name="new-droplet"
 image="ubuntu-16-04-x64"
 size="1gb"
