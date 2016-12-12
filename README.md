@@ -1,6 +1,6 @@
 # DigitalOcean Droplet creator
 
-A doctl-based shell script to quickly create a single DigitalOcean Droplet.
+A dialog-based shell script to quickly create a single DigitalOcean Droplet.
 
 ![The `dodc` main menu lists options for creating and configuring a Droplet.](screenshot.png)
 
@@ -10,7 +10,9 @@ Run `./dodc.sh`, enter the Droplet name at the prompt, then select the image to 
 
 All SSH keys in an account are automatically added to each Droplet created.
 
+Note: The working directory should be the same as where the script is located, in order to read the image options file.
+
 ## Requirements
 
+* [dialog](http://invisible-island.net/dialog/dialog.html)
 * [doctl](https://github.com/digitalocean/doctl)
-* dialog
