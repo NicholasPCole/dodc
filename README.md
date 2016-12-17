@@ -10,8 +10,6 @@ Run `./dodc.sh`, enter the Droplet name at the prompt, then select the image to 
 
 All SSH keys in an account are automatically added to each Droplet created.
 
-Note: The working directory should be the same as where the script is located, in order to read the image options file.
-
 ## Requirements
 
 * [dialog](http://invisible-island.net/dialog/dialog.html)

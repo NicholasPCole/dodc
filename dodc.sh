@@ -46,7 +46,7 @@ function set_name() {
 }
 
 function choose_image() {
-    dialog --backtitle "Droplet creator" --title "Image" --radiolist "Choose an image:" 0 0 0 --file images.txt 2>${DIALOG_RESPONSE_TMP}
+    dialog --backtitle "Droplet creator" --title "Image" --radiolist "Choose an image:" 0 0 0 --file ${SCRIPT_DIR}/images.txt 2>${DIALOG_RESPONSE_TMP}
     local dialog_exit_code=$?
     local dialog_input=$(cat ${DIALOG_RESPONSE_TMP})
 
@@ -156,8 +156,7 @@ function create_droplet() {
     exit
 }
 
-BOLD=$(tput bold)
-NORMAL=$(tput sgr0)
+SCRIPT_DIR=$(dirname $(realpath $0))
 
 DIALOG_RESPONSE_TMP=$(mktemp /tmp/dodc.XXXXXX 2>/dev/null)
 DIALOG_OK=0
