@@ -7,6 +7,7 @@ function top_menu() {
       size "${size}" \
       region "${region}" \
       options "${options_summary}" \
+      f5-images "Refresh images" \
       create "Create" 2>${DIALOG_RESPONSE_TMP}
     local dialog_exit_code=$?
     local dialog_input=$(cat ${DIALOG_RESPONSE_TMP})
@@ -24,6 +25,8 @@ function top_menu() {
                     choose_region;;
                 options)
                     choose_additional_options;;
+                f5-images)
+                    refresh_images;;
                 create)
                     create_droplet;;
             esac;;
@@ -138,6 +141,11 @@ function choose_additional_options() {
     fi
 }
 
+function refresh_images() {
+    echo "Refreshing public images... please wait."
+    doctl compute image list --public -o json | jq -c '.[] | select(has("slug")) | {"\(.slug)": "\(.distribution) \(.name)"}' | sed 's/^{"//; s/":/ /; s/}$/ off/;' | sort > ${SCRIPT_DIR}/images.txt
+}
+
 function create_droplet() {
     ssh_keys=$(doctl compute ssh-key list --format ID --no-header | paste -sd "," -)
     doctl_command="doctl compute droplet create ${name} --wait --image ${image} --region ${region} --size ${size} --ssh-keys \"${ssh_keys}\""
@@ -173,6 +181,10 @@ ipv6="on"
 options_summary="IPv6"
 
 set_name
+
+if [[ ! -f ${SCRIPT_DIR}/images.txt ]]; then
+    refresh_images
+fi
 choose_image
 
 while true; do

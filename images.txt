@@ -6,10 +6,10 @@ centos-6-5-x64 "CentOS 6.7 x64" off
 centos-6-x32 "CentOS 6.8 x32" off
 centos-6-x64 "CentOS 6.8 x64" off
 centos-7-0-x64 "CentOS 7.2 x64" off
-centos-7-x64 "CentOS 7.2 x64" off
-coreos-alpha "CoreOS 1248.1.0 (alpha)" off
-coreos-beta "CoreOS 1235.2.0 (beta)" off
-coreos-stable "CoreOS 1185.5.0 (stable)" off
+centos-7-x64 "CentOS 7.3.1611 x64" off
+coreos-alpha "CoreOS 1284.2.0 (alpha)" off
+coreos-beta "CoreOS 1248.4.0 (beta)" off
+coreos-stable "CoreOS 1235.6.0 (stable)" off
 debian-7-0-x32 "Debian 7.10 x32" off
 debian-7-0-x64 "Debian 7.10 x64" off
 debian-7-x32 "Debian 7.11 x32" off
@@ -17,15 +17,15 @@ debian-7-x64 "Debian 7.11 x64" off
 debian-8-x32 "Debian 8.6 x32" off
 debian-8-x64 "Debian 8.6 x64" off
 discourse "Ubuntu Discourse on 14.04" off
+django-16-04 "Ubuntu Django 1.8.7 on 16.04" off
 django "Ubuntu Django on 14.04" off
-docker-16-04 "Ubuntu Docker 1.12.3 on 16.04" off
+docker-16-04 "Ubuntu Docker 1.12.5 on 16.04" off
 docker "Ubuntu Docker 1.12.2 on 14.04" off
+dokku-16-04 "Ubuntu Dokku 0.7.2 on 16.04" off
 dokku "Ubuntu Dokku 0.6.5 on 14.04" off
 drone "Ubuntu Drone 0.4 on 14.04" off
 drupal "Ubuntu Drupal 8.1.3 on 14.04" off
-elixir "Ubuntu Elixir on 14.04" off
 elk "Ubuntu ELK Logging Stack on 14.04" off
-fedora-23-x64 "Fedora 23 x64" off
 fedora-24-x64 "Fedora 24 x64" off
 fedora-25-x64 "Fedora 25 x64" off
 freebsd-10-1-x64 "FreeBSD 10.1" off
@@ -35,24 +35,27 @@ freebsd-10-3-x64-zfs "FreeBSD 10.3 zfs" off
 freebsd-11-0-x64 "FreeBSD 11.0" off
 freebsd-11-0-x64-zfs "FreeBSD 11.0 zfs" off
 ghost-16-04 "Ubuntu Ghost 0.11.3 on 16.04" off
-gitlab-16-04 "Ubuntu GitLab 8.14.3-ce.0 on 16.04" off
+gitlab-16-04 "Ubuntu GitLab 8.14.5-ce.0 on 16.04" off
 gitlab "Ubuntu GitLab 8.9.4 CE on 14.04" off
 lamp-16-04 "Ubuntu LAMP on 16.04" off
 lamp "Ubuntu LAMP on 14.04" off
 lemp-16-04 "Ubuntu LEMP on 16.04" off
 lemp "Ubuntu LEMP on 14.04" off
 magento "Ubuntu Magento 2.0.7 CE on 14.04" off
+mean-16-04 "Ubuntu MEAN 0.5.0 on 16.04" off
 mean "Ubuntu MEAN on 14.04" off
 mediawiki "Ubuntu MediaWiki on 14.04" off
+mongodb-16-04 "Ubuntu MongoDB 3.2.11 on 16.04" off
 mongodb "Ubuntu MongoDB 3.2.7 on 14.04" off
 mumble "Ubuntu Mumble Server (murmur) on 14.04" off
-net_powershell-16-04 "Ubuntu DotNet on 16.04" off
+net_powershell-16-04 "Ubuntu .NET Core w/ PowerShell on 16.04" off
 node-16-04 "Ubuntu NodeJS 6.9.2 on 16.04" off
 node "Ubuntu NodeJS 6.9.1 on 14.04" off
 owncloud "Ubuntu ownCloud 9.0.3 on 14.04" off
 phpmyadmin "Ubuntu PHPMyAdmin on 14.04" off
 redis "Ubuntu Redis 3.2.1 on 14.04" off
 redmine "Ubuntu Redmine on 14.04" off
+ruby-on-rails-16-04 "Ubuntu Ruby-on-Rails 5.0.1 on 16.04" off
 ruby-on-rails "Ubuntu Ruby on Rails on 14.04 (Postgres, Nginx, Unicorn)" off
 ubuntu-12-04-x32 "Ubuntu 12.04.5 x32" off
 ubuntu-12-04-x64 "Ubuntu 12.04.5 x64" off
