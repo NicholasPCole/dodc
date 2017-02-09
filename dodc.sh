@@ -177,8 +177,8 @@ image="ubuntu-16-04-x64"
 size="1gb"
 region="nyc3"
 private_networking="off"
-ipv6="on"
-options_summary="IPv6"
+ipv6="off"
+options_summary="None"
 
 set_name
 
