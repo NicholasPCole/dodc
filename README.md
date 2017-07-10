@@ -12,5 +12,6 @@ All SSH keys in an account are automatically added to each Droplet created.
 
 ## Requirements
 
-* [dialog](http://invisible-island.net/dialog/dialog.html)
-* [doctl](https://github.com/digitalocean/doctl)
+* **[dialog](http://invisible-island.net/dialog/dialog.html)**, for prompting the user for input.
+* **[doctl](https://github.com/digitalocean/doctl)**, for creating the resulting Droplet and other DigitalOcean API interactions.
+* **[jq](https://stedolan.github.io/jq/)**, for parsing the list of public images.
