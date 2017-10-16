@@ -70,6 +70,12 @@ function choose_size() {
       32gb "Standard Droplet, \$320/mo." off \
       48gb "Standard Droplet, \$480/mo." off \
       64gb "Standard Droplet, \$640/mo." off \
+      c-2 "High CPU Droplet, \$40/mo." off \
+      c-4 "High CPU Droplet, \$80/mo." off \
+      c-8 "High CPU Droplet, \$160/mo." off \
+      c-16 "High CPU Droplet, \$320/mo." off \
+      c-32 "High CPU Droplet, \$640/mo." off \
+      c-48 "High CPU Droplet, \$960/mo." off \
       m-16gb "High memory Droplet, \$120/mo." off \
       m-32gb "High memory Droplet, \$240/mo." off \
       m-64gb "High memory Droplet, \$480/mo." off \
