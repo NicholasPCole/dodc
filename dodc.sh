@@ -61,26 +61,40 @@ function choose_image() {
 
 function choose_size() {
     dialog --backtitle "Droplet creator" --title "Size" --radiolist "Choose a size:" 0 0 0 \
-      512mb "Standard Droplet, \$5/mo." off \
-      1gb "Standard Droplet, \$10/mo." off \
-      2gb "Standard Droplet, \$20/mo." off \
-      4gb "Standard Droplet, \$40/mo." off \
-      8gb "Standard Droplet, \$80/mo." off \
-      16gb "Standard Droplet, \$160/mo." off \
-      32gb "Standard Droplet, \$320/mo." off \
-      48gb "Standard Droplet, \$480/mo." off \
-      64gb "Standard Droplet, \$640/mo." off \
-      c-2 "High CPU Droplet, \$40/mo." off \
-      c-4 "High CPU Droplet, \$80/mo." off \
-      c-8 "High CPU Droplet, \$160/mo." off \
-      c-16 "High CPU Droplet, \$320/mo." off \
-      c-32 "High CPU Droplet, \$640/mo." off \
-      c-48 "High CPU Droplet, \$960/mo." off \
-      m-16gb "High memory Droplet, \$120/mo." off \
-      m-32gb "High memory Droplet, \$240/mo." off \
-      m-64gb "High memory Droplet, \$480/mo." off \
-      m-128gb "High memory Droplet, \$960/mo." off \
-      m-224gb "High memory Droplet, \$1680/mo." off 2>${DIALOG_RESPONSE_TMP}
+      s-1vcpu-1gb "Standard Droplet, 25 GB SSD, \$5/mo." off \
+      s-1vcpu-2gb "Standard Droplet, 50 GB SSD, \$10/mo." off \
+      s-1vcpu-3gb "Standard Droplet, 60 GB SSD, \$15/mo." off \
+      s-2vcpu-2gb "Standard Droplet, 60 GB SSD, \$15/mo." off \
+      s-3vcpu-1gb "Standard Droplet, 60 GB SSD, \$15/mo." off \
+      s-2vcpu-4gb "Standard Droplet, 80 GB SSD, \$20/mo." off \
+      s-4vcpu-8gb "Standard Droplet, 160 GB SSD, \$40/mo." off \
+      s-6vcpu-16gb "Standard Droplet, 320 GB SSD, \$80/mo." off \
+      s-8vcpu-32gb "Standard Droplet, 640 GB SSD, \$160/mo." off \
+      s-12vcpu-48gb "Standard Droplet, 960 GB SSD, \$240/mo." off \
+      s-16vcpu-64gb "Standard Droplet, 1280 GB SSD, \$320/mo." off \
+      s-20vcpu-96gb "Standard Droplet, 1920 GB SSD, \$480/mo." off \
+      s-24vcpu-128gb "Standard Droplet, 2560 GB SSD, \$640/mo." off \
+      s-32vcpu-192gb "Standard Droplet, 3840 GB SSD, \$960/mo." off \
+      c-2 "Optimized Droplet, \$40/mo." off \
+      c-4 "Optimized Droplet, \$80/mo." off \
+      c-8 "Optimized Droplet, \$160/mo." off \
+      c-16 "Optimized Droplet, \$320/mo." off \
+      c-32 "Optimized Droplet, \$640/mo." off \
+      c-48 "Optimized Droplet, \$960/mo." off \
+      512mb "1st generation Droplet, \$5/mo." off \
+      1gb "1st generation Droplet, \$10/mo." off \
+      2gb "1st generation Droplet, \$20/mo." off \
+      4gb "1st generation Droplet, \$40/mo." off \
+      8gb "1st generation Droplet, \$80/mo." off \
+      16gb "1st generation Droplet, \$160/mo." off \
+      32gb "1st generation Droplet, \$320/mo." off \
+      48gb "1st generation Droplet, \$480/mo." off \
+      64gb "1st generation Droplet, \$640/mo." off \
+      m-16gb "High Memory Droplet, \$120/mo." off \
+      m-32gb "High Memory Droplet, \$240/mo." off \
+      m-64gb "High Memory Droplet, \$480/mo." off \
+      m-128gb "High Memory Droplet, \$960/mo." off \
+      m-224gb "High Memory Droplet, \$1680/mo." off 2>${DIALOG_RESPONSE_TMP}
     local dialog_exit_code=$?
     local dialog_input=$(cat ${DIALOG_RESPONSE_TMP})
 
