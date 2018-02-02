@@ -162,6 +162,8 @@ function choose_additional_options() {
 }
 
 function refresh_images() {
+    hash jq 2>/dev/null || { echo >&2 "The jq package is required but not installed. Exiting."; exit 1; }
+
     echo "Refreshing public images... please wait."
     doctl compute image list --public -o json | jq -c '.[] | select(has("slug")) | {"\(.slug)": "\(.distribution) \(.name)"}' | sed 's/^{"//; s/":/ /; s/}$/ off/;' | sort > ${SCRIPT_DIR}/images.txt
 }
@@ -183,6 +185,10 @@ function create_droplet() {
     eval "${doctl_command}"
     exit
 }
+
+# Credit: https://stackoverflow.com/a/677212
+hash dialog 2>/dev/null || { echo >&2 "The dialog package is required but not installed. Exiting."; exit 1; }
+hash doctl 2>/dev/null || { echo >&2 "The doctl program is required but not installed. Exiting."; exit 1; }
 
 SCRIPT_DIR=$(dirname $(realpath $0))
 
