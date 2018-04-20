@@ -75,6 +75,7 @@ function choose_size() {
       s-20vcpu-96gb "Standard Droplet, 1920 GB SSD, \$480/mo." off \
       s-24vcpu-128gb "Standard Droplet, 2560 GB SSD, \$640/mo." off \
       s-32vcpu-192gb "Standard Droplet, 3840 GB SSD, \$960/mo." off \
+      c-1vcpu-2gb "Optimized Droplet, \$20/mo." off \
       c-2 "Optimized Droplet, \$40/mo." off \
       c-4 "Optimized Droplet, \$80/mo." off \
       c-8 "Optimized Droplet, \$160/mo." off \
