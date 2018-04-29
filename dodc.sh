@@ -200,8 +200,8 @@ DIALOG_ESC=255
 
 # Initialize default Droplet settings.
 name="new-droplet"
-image="ubuntu-16-04-x64"
-size="1gb"
+image="ubuntu-18-04-x64"
+size="s-1vcpu-1gb"
 region="nyc1"
 private_networking="off"
 ipv6="off"
