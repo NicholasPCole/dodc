@@ -1,48 +1,165 @@
+acra-18-04 "Ubuntu Acra 0.85.0 on Ubuntu 18.04" off
+akaunting-18-04 "Ubuntu Akaunting on Ubuntu 18.04" off
+alfio-7-6 "CentOS alf.io 2.0 on CentOS 7.6" off
+analythium-shinyproxy-18-04 "Ubuntu ShinyProxy 2.3.0 on Ubuntu 18.04" off
+antmedia-16-04 "Ubuntu AntMedia Server Community Edition 1.9.1 on Ubuntu 16.04" off
+antmedia-antmediaserveren-16-04 "Ubuntu Ant Media Server Enterprise Edition 2.0.0 on Ubuntu 18.04" off
+apisnetworks-apnscp-7-7 "CentOS apnscp 3.1 on CentOS 7.7" off
+aplitel-vitalpbx-7 "CentOS VitalPBX 2.4.2-1 on Centos 7" off
+ascensiosystem-onlyoffice-18-04 "Ubuntu ONLYOFFICE 18.10 on Ubuntu 18.04" off
+azuracast-18-04 "Ubuntu AzuraCast 0.10.2 on Ubuntu 18.04" off
+bitwarden-18-04 "Ubuntu Bitwarden 1.32.0 on Ubuntu 18.04" off
+botpress-18-04 "Ubuntu Botpress 12.9.1 on Ubuntu 18.04" off
+buddy-18-04 "Ubuntu Buddy on Ubuntu 18.04" off
+caddy-18-04 "Ubuntu Caddy 2.0.0 on Ubuntu 18.04" off
+caprover-18-04 "Ubuntu CapRover 1.3.0 on Ubuntu 18.04" off
 cassandra "Ubuntu Cassandra on 14.04" off
 centos-6-x32 "CentOS 6.9 x32" off
 centos-6-x64 "CentOS 6.9 x64" off
-centos-7-x64 "CentOS 7.4 x64" off
-coreos-alpha "CoreOS 1662.0.0 (alpha)" off
-coreos-beta "CoreOS 1632.1.0 (beta)" off
-coreos-stable "CoreOS 1576.5.0 (stable)" off
-debian-7-x32 "Debian 7.11 x32" off
-debian-7-x64 "Debian 7.11 x64" off
-debian-8-x32 "Debian 8.10 x32" off
-debian-8-x64 "Debian 8.10 x64" off
-debian-9-x64 "Debian 9.3 x64" off
-discourse-16-04 "Ubuntu Discourse 2.0.20170531 on 16.04" off
-django-16-04 "Ubuntu Django 1.8.7 on 16.04" off
-docker-16-04 "Ubuntu Docker 17.12.0~ce on 16.04" off
-docker "Ubuntu Docker 17.03.0-ce on 14.04" off
-dokku-16-04 "Ubuntu Dokku 0.11.3 on 16.04" off
-fedora-26-x64 "Fedora 26 x64" off
-fedora-27-x64-atomic "Fedora Atomic 27 Atomic x64" off
-fedora-27-x64 "Fedora 27 x64" off
-freebsd-10-3-x64 "FreeBSD 10.3 x64" off
-freebsd-10-3-x64-zfs "FreeBSD 10.3 x64 zfs" off
-freebsd-10-4-x64 "FreeBSD 10.4 x64" off
-freebsd-10-4-x64-zfs "FreeBSD 10.4 x64 ZFS" off
-freebsd-11-0-x64 "FreeBSD 11.0 x64" off
-freebsd-11-0-x64-zfs "FreeBSD 11.0 x64 ZFS" off
-freebsd-11-1-x64 "FreeBSD 11.1 x64" off
-freebsd-11-1-x64-zfs "FreeBSD 11.1 x64 ZFS" off
-ghost-16-04 "Ubuntu Ghost 1.6.2 on 16.04" off
-gitlab-16-04 "Ubuntu GitLab 10.3.5-ce.0 on 16.04" off
-lamp-16-04 "Ubuntu LAMP on 16.04" off
-lemp-16-04 "Ubuntu LEMP on 16.04" off
-mean-16-04 "Ubuntu MEAN on 16.04" off
-ml-16-04 "Ubuntu Machine Learning and AI" off
-mongodb-16-04 "Ubuntu MongoDB 3.4.10 on 16.04" off
-mysql-16-04 "Ubuntu MySQL on 16.04" off
-node-16-04 "Ubuntu NodeJS 6.12.3 on 16.04" off
-phpmyadmin-16-04 "Ubuntu PhpMyAdmin on 16.04" off
-rancheros "RancherOS v.1.1.3 x64" off
-ruby-on-rails-16-04 "Ubuntu Ruby-on-Rails on 16.04" off
-ubuntu-14-04-x32-do "Ubuntu 14.04.5 x32" off
-ubuntu-14-04-x32 "Ubuntu 14.04.5 x32" off
-ubuntu-14-04-x64-do "Ubuntu 14.04.5 x64" off
-ubuntu-14-04-x64 "Ubuntu 14.04.5 x64" off
-ubuntu-16-04-x32 "Ubuntu 16.04.3 x32" off
-ubuntu-16-04-x64 "Ubuntu 16.04.3 x64" off
-ubuntu-17-10-x64 "Ubuntu 17.10 x64" off
-wordpress-16-04 "Ubuntu WordPress 4.9.1 on 16.04" off
+centos-7-x64 "CentOS 7.6 x64" off
+centos-8-x64 "CentOS 8.1 x64" off
+chamilo-18-04 "Ubuntu Chamilo 1.11.10 on Ubuntu 18.04" off
+cloudron-18-04 "Ubuntu Cloudron 5.1.5 on Ubuntu 18.04" off
+code-server-18-04 "Ubuntu code-server 3.0.2 on Ubuntu 18.04" off
+coreos-alpha "CoreOS 2430.0.0 (alpha)" off
+coreos-beta "CoreOS 2411.1.0 (beta)" off
+coreos-stable "CoreOS 2345.3.0 (stable)" off
+countly-18-04 "Ubuntu Countly 19.08.1 on Ubuntu 18.04" off
+cpanel-7-6 "CentOS cPanel & WHM® 84.0.14 on CentOS 7.6" off
+cpanel-cpanelwhm-7-6 "CentOS cPanel & WHM® 86.0.16 on CentOS 7.6" off
+cyberpanel-18-04 "Ubuntu CyberPanel 2.0.0 on Ubuntu 18.04" off
+cyberscore-18-04 "Ubuntu CyberScore 5.0.1 on Ubuntu 18.04.3" off
+deadcanaries-onionroutedcloud-18-04 "Ubuntu Onion Routed Cloud 14 on 18.04" off
+deadletter-18-04 "Ubuntu DeadLetter Facial Recognition on 18.04" off
+debian-10-x64 "Debian 10.3 x64" off
+debian-9-x64 "Debian 9.12 x64" off
+directus-18-04 "Ubuntu Directus 8.6.1 on Ubuntu 18.04" off
+discourse-18-04 "Ubuntu Discourse 2.5.0.beta3 on Ubuntu 18.04" off
+django-18-04 "Ubuntu Django is the best 1.11.11 on Ubuntu 18.04" off
+docker-18-04 "Ubuntu Docker 5:19.03.1~3 on 18.04" off
+dokku-18-04 "Ubuntu Dokku 0.17.9 on 18.04" off
+dokos-18-04 "Ubuntu Dokos 1.4.0 on Ubuntu 18.04" off
+eltrino-magento2opensour-18-04 "Ubuntu Magento 2 Open Source 1.0 on Ubuntu 18.04 (LTS)" off
+erpnext-18-04 "Ubuntu ERPNext 12.5.0 on Ubuntu 18.04" off
+fastnetmon-18-04 "Ubuntu FastNetMon 2.0 on Ubuntu 18.04" off
+fastpanel-deb-9 "Debian FastPanel 1.7 on Debian" off
+fathom-18-04 "Ubuntu Fathom on 18.04" off
+fedora-30-x64 "Fedora 30 x64" off
+fedora-31-x64 "Fedora 31 x64" off
+fedora-32-x64 "Fedora 32 x64" off
+flashphoner-7-6 "CentOS Flashphoner 5.2.259 on CentOS 7.6" off
+flexify-18-04 "Ubuntu Flexify 2.8.1 on Ubuntu 18.04" off
+freebsd-11-x64-ufs "FreeBSD 11.3 x64 ufs" off
+freebsd-11-x64-zfs "FreeBSD 11.3 x64 zfs" off
+freebsd-12-x64 "FreeBSD 12.1 x64 ufs" off
+freebsd-12-x64-zfs "FreeBSD 12.1 x64 zfs" off
+ghost-18-04 "Ubuntu Ghost on Ubuntu 18.04" off
+gitea-18-04 "Ubuntu Gitea 1.8.2 on Ubuntu 18.04" off
+gitlab-meltano-18-04 "Ubuntu Meltano 1.15.0 on Ubuntu 18.04" off
+grafana-18-04 "Ubuntu Grafana 6.7.1 on Ubuntu 18.04" off
+grandnode-18-04 "Ubuntu GrandNode 4.60 on Ubuntu 18.04" off
+hasura-18-04 "Ubuntu Hasura GraphQL on Ubuntu 18.04" off
+helpy-18-04 "Ubuntu Helpy 2.4 on 18.04" off
+honeydbagent-9 "Debian HoneyDB Agent on Debian 9" off
+influxdb-18-04 "Ubuntu Influx TICK on 18.04" off
+invoiceninja-18-04 "Ubuntu Invoice Ninja 1.0.0 on Ubuntu 18.0.4" off
+iota-iotahornetnode-18-04 "Ubuntu IOTA Hornet Node 0.2.12 on Ubuntu 18.04 LTS" off
+izenda-18-04 "Ubuntu Izenda 3.3.1 on Ubuntu 18.04" off
+jadiangaming-solderio-18-04 "Ubuntu Solder.io 0.7.5.1 on Ubuntu 18.04" off
+jelastic-jelasticpaas-7 "CentOS Jelastic PaaS 5.8-1 on Centos 7" off
+jenkins-18-04 "Ubuntu CloudBees Jenkins on 18.04" off
+kandralabs-zulip-18-04 "Ubuntu Zulip 2.1.4 on Ubuntu 18.04" off
+kromit-titra-18-04 "Ubuntu titra 0.9.8 on Ubuntu 18.04" off
+lamp-18-04 "Ubuntu LAMP on 18.04" off
+lemp-18-04 "Ubuntu LEMP on 18.04" off
+litespeedtechnol-openlitespeedcla-18-04 "Ubuntu OpenLiteSpeed ClassicPress 1.1.2 on Ubuntu 18.04" off
+litespeedtechnol-openlitespeeddja-18-04 "Ubuntu OpenLiteSpeed Django 3.0.3 on Ubuntu 18.04" off
+litespeedtechnol-openlitespeednod-18-04 "Ubuntu OpenLiteSpeed NodeJS 12.16.1 on Ubuntu 18.04" off
+litespeedtechnol-openlitespeedwor-18-04 "Ubuntu OpenLiteSpeed WordPress 5.3.2 on Ubuntu 18.04" off
+livehelperchat-7-8-2003 "CentOS Live Helper Chat 3.34 on Centos 7.8.2003" off
+mastodon-18-04 "Ubuntu Mastodon 3.1.3 on Ubuntu 18.04" off
+mattermost-18-04 "Ubuntu Mattermost 5.16.3 on Ubuntu 18.04" off
+meilisas-meilisearch-10 "Debian MeiliSearch 0.10.0 on Debian 10 (buster)" off
+meltano-18-04 "Ubuntu Meltano 1.31.0 on Ubuntu 18.04" off
+memgraph-9-7 "Debian Memgraph on Debian 9.7" off
+metabase-18-04 "Ubuntu Metabase 0.34.2 on Ubuntu 18.04" off
+microweber-18-04 "Ubuntu Microweber 1.1.18 on Ubuntu 18.04" off
+mobilejazz-bugfender-18-04 "Ubuntu Bugfender 2020.1.0 on Ubuntu 18.04" off
+mongodb-18-04 "Ubuntu MongoDB 4.0.3 on 18.04" off
+mozilla-hubscloudpersona-18-04 "Ubuntu Hubs Cloud Personal 1.1.0 on Ubuntu 18.04" off
+mysql-18-04 "Ubuntu MySQL on 18.04" off
+nakama-18-04 "Ubuntu Nakama 2.7.0 on Ubuntu 18.04" off
+netfoundry-7-6 "CentOS NetFoundry Cloud Gateway 6.1.0 on CentOS 7.7" off
+nibblecomm-spotipo-18-04 "Ubuntu Spotipo 3.4.13 on 18.04" off
+nimbella-18-04 "Ubuntu Nimbella Lite on Ubuntu 18.04" off
+nknfullnode-18-04 "Ubuntu NKN Full Node 1.1 on Ubuntu 18.04" off
+nlnetlabs-krill-18-04 "Ubuntu Krill 0.6.0 on Ubuntu 18.04" off
+nmtec-erxes-18-04 "Ubuntu Erxes 0.13.0 on Ubuntu 18.04" off
+nodegame-18-04 "Ubuntu NodeGame 5.9.0 on Ubuntu 18.04" off
+nodejs-18-04 "Ubuntu NodeJS 8.10.0 on 18.04" off
+onjection-jenkins-16-04 "Ubuntu Onjection Jenkins 2.164.3 on Ubuntu 16.04" off
+opencart-18-04 "Ubuntu OpenCart 3.0.3 on Ubuntu 18.04" off
+openfaas-18-04 "Ubuntu OpenFaaS on Ubuntu 18.04" off
+openlitespeed-django-18-04 "Ubuntu OpenLiteSpeed Django 2.2.3 on Ubuntu 18.04" off
+openlitespeed-node-18-04 "Ubuntu OpenLiteSpeed NodeJS 10.15.3 on Ubuntu 18.04" off
+openlitespeed-wp-18-04 "Ubuntu OpenLiteSpeed WordPress 5.3 on Ubuntu 18.04" off
+opentradestatist-jitsiserver-18-04 "Ubuntu Jitsi Server 2.1-164 on Ubuntu 18.04" off
+opentradestatist-rstudioh2o-18-04 "Ubuntu RStudio + H2O 1.2 on Ubuntu 18.04" off
+opentradestatist-rstudiopkgdev-18-04 "Ubuntu RStudio + PkgDev 1.2 on Ubuntu 18.04" off
+openvpn-18-04 "Ubuntu OpenVPN Access Server 2.8.3 on Ubuntu 18.04" off
+optimajet-workflowserver-18-04 "Ubuntu WorkflowServer 2.5 on Ubuntu 18.04" off
+ossn-18-04 "Ubuntu Open Source Social Network 5.2 on Ubuntu 18.04" off
+passbolt-18-04 "Ubuntu Passbolt CE 2.12.1 on Ubuntu 18.04" off
+phpmyadmin-18-04 "Ubuntu PhpMyAdmin on 18.04" off
+pihole-18-04 "Ubuntu OpenVPN + Pihole 1.0.1 on Ubuntu 18.04" off
+plesk-18-04 "Ubuntu Plesk 18.0 on Ubuntu 18.04" off
+plesk-7-6 "CentOS Plesk (CentOS) 18.0 on CentOS 7.7" off
+prometheus-18-04 "Ubuntu Prometheus 2.9.2 on Ubuntu 18.04" off
+quickcorp-qcobjects-18-04 "Ubuntu QCObjects 2.1.157 on Ubuntu 18.04" off
+rails-18-04 "Ubuntu Ruby-on-Rails on 18.04" off
+rancheros "RancherOS v1.5.5" off
+reblaze-reblazewaf-18-04 "Ubuntu Reblaze WAF 2.12.10 on Ubuntu 18.04" off
+redash-18-04 "Ubuntu Redash 8.0.0 on Ubuntu 18.04" off
+restya-restyaboard-18-04 "Ubuntu Restyaboard 0.6.8 on Ubuntu 18.04" off
+restya-restyaboardcento-7-6 "CentOS Restyaboard (CentOS) 0.6.8 on CentOS 7.6" off
+restyaboard-16-04 "Ubuntu Restyaboard 0.6.8 on Ubuntu 16.04" off
+restyaboard-7-6 "CentOS Restyaboard (CentOS) 0.6.8 on CentOS 7.6" off
+rethinkdb-18-04 "Ubuntu RethinkDB 2.4.0 on Ubuntu 18.04" off
+rethinkdb-rethinkdbfantasi-18-04 "Ubuntu RethinkDB (Fantasia) 2.3.7 on Ubuntu 18.04" off
+revox-keplerbuilder-18-04 "Ubuntu Kepler Builder 1.0.9 on Ubuntu 18.04" off
+rocketchat-18-04 "Ubuntu Rocket.Chat 2.4.9 on Ubuntu 18.04" off
+selenoid-18-04 "Ubuntu Selenoid 1.10.0 on Ubuntu 18.04" off
+sharklabs-foldinghome-18-04 "Ubuntu Folding@home 0.0.1 on Ubuntu 18.04" off
+sharklabs-minecraftbedrock-20-04 "Ubuntu Minecraft: Bedrock Edition 1.0 on Ubuntu 20.04 (LTS)" off
+sharklabs-minecraftjavaedi-18-04 "Ubuntu Minecraft: Java Edition Server 1.0 on Ubuntu 18.04" off
+sharklabs-ninjam-10-0 "Debian Ninjam on Debian 10.0 x64" off
+sharklabs-nodejsquickstart-18-04 "Ubuntu Node.js Quickstart 1.0 on Ubuntu 18.04" off
+sharklabs-pacvim-18-04 "Ubuntu PacVim on Ubuntu 18.04" off
+sharklabs-pythondjangoquic-18-04 "Ubuntu Python/Django Quickstart 1.1 on Ubuntu 18.04" off
+shopware-18-04 "Ubuntu Shopware on Ubuntu 18.04" off
+simplystatistics-rstudio-18-04 "Ubuntu RStudio 1.2 on Ubuntu 18.04" off
+skaffolder-18-04 "Ubuntu Skaffolder 3.0 on Ubuntu 18.04" off
+snapt-snaptaria-18-04 "Ubuntu Snapt Aria 2.0.0 on Ubuntu 18.04" off
+snapt-snaptnova-18-04 "Ubuntu Snapt Nova 1.0.0 on Ubuntu 18.04" off
+solidinvoice-18-04 "Ubuntu SolidInvoice 2.0.3 on Ubuntu 18.04" off
+spatie-mailcoach-18-04 "Ubuntu Mailcoach 2.1 on Ubuntu 18.04" off
+strapi-18-04 "Ubuntu Strapi 0.0.3 on Ubuntu 18.04" off
+supabase-supabasepostgres-18-04 "Ubuntu Supabase Postgres 0.0.11 on Ubuntu 18.04" off
+thingsboard-18-04 "Ubuntu ThingsBoard CE on Ubuntu 18.04" off
+thingsboardpe-18-04 "Ubuntu ThingsBoard PE on Ubuntu 18.04" off
+ubuntu-16-04-x32 "Ubuntu 16.04.6 (LTS) x32" off
+ubuntu-16-04-x64 "Ubuntu 16.04.6 (LTS) x64" off
+ubuntu-18-04-x64 "Ubuntu 18.04.3 (LTS) x64" off
+ubuntu-19-10-x64 "Ubuntu 19.10 x64" off
+ubuntu-20-04-x64 "Ubuntu 20.04 (LTS) x64" off
+unlight-openunlight-18-04 "Ubuntu Open Unlight 1.0.0.pre1 on Ubuntu 18.04" off
+vardot-varbase-18-04 "Ubuntu Varbase 8.7.11 on Ubuntu 18.04" off
+vitalpointz-7-6 "CentOS vitalpointz IoT Core Lite 1.2.0 on CentOS 7.6" off
+weconexpbx-7-6 "CentOS WeconexPBX 2.4-1 on CentOS 7.6" off
+wikijs-18-04 "Ubuntu Wiki.js 2.3.81 on Ubuntu 18.04" off
+wordpress-18-04 "Ubuntu WordPress on 18.04" off
+workarea-18-04 "Ubuntu Workarea 3.5.x on Ubuntu 18.04" off
+xcart-7 "CentOS X-Cart 5.4.1.4 on CentOS 7.6" off
+zabbix-7-6 "CentOS Zabbix 4.4.4 on CentOS 7" off
+zeromon-zabbix-18-04 "Ubuntu Zeromon Zabbix 4 on Ubuntu 18.04" off
+zoomadmin-18-04 "Ubuntu ZoomAdmin 1.1 on Ubuntu 18.04" off
